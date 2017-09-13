@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Phi Gamma Delta at Northeastern</title>
-    <meta name="description" content="The Delta Colony of Phi Gamma Delta was founded at Northeastern University in the spring of 2017. The aim of the fraternity is to build courageous leaders.">       <meta property="og:image" content="https://nufiji.com/Diamond.jpg">
+    <meta name="description" content="The Delta Colony of Phi Gamma Delta was founded at Northeastern University in the spring of 2017. The aim of the fraternity is to build courageous leaders.">
+    <meta property="og:image" content="https://nufiji.com/Diamond.jpg">
     <meta property="og:description" content="The Delta Colony of Phi Gamma Delta was founded at Northeastern University in the spring of 2017. The aim of the fraternity is to build courageous leaders.">
     <meta property="og:title" content="Phi Gamma Delta at Northeastern">
     <meta property="og:url" content="https://nufiji.com">
@@ -53,7 +54,7 @@
                         <a href="Recruitment.html">Recruitment</a>
                     </li>
                     <li>
-                        <a href="index.html"><img src="Diamond.jpg" width="33" height="25" alt="My Logo" border="0"/></a>                    
+                        <a href="index.html"><img src="Diamond.jpg" width="33" height="25" alt="My Logo" border="0" /></a>
                     </li>
                     <li>
                         <a href="Brothers.html">Brothers</a>
@@ -73,8 +74,98 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h1>Join Fiji</h1>
-                <p>If you'd like to join Fiji, please reach out to Ethan Marshall, our recruitment chair.</p>
+                <style>
+                    header {
+                        padding: 1em;
+                        text-align: center;
+                        max-width: 100%;
+                    }
+                    .cards {
+                        display: block;
+                        margin: auto;
+                        width: 100%;
+                    }
+                </style>
+                <h3> <br /> <br /></h3>
+                <header>
+                    <h1>Recruitment</h1>
+                    <img src = "Images/RushCards.jpg" 
+                         class = "cards"/>
+                </header>
+                <!-- This page will contain the 5 images of our cabinet 
+running down the right hand side of the page. In the left 
+hand column, mirroring the images, will be a description of each member.
+We may want to format the description to include their 
+with a pseudo header or something. -->
+                <!-- This was the idea we had to try and align cabinet members
+on the left, with their accompanying text on the right. To do this we are using subclasses
+of "article" to split the screen in 1:2 ratio. -->
+                <style>
+                    article left {
+                        float: right;
+                        width: 50%;
+                        margin: 0;
+                        padding-left: 0px;
+                    }
+                    
+                    article right {
+                        float: right;
+                        width: 50%;
+                        border-left: 1px solid gray;
+                        padding: 2em;
+                    }
+                    
+                    h1 {
+                        text-align: center;
+                        color: #520975;
+                    }
+                    
+                    h2 {
+                        text-align: right;
+                        color: #520975;
+                        margin: 10px;
+                        font-size: 30px;
+                        font-family: 'Arial Narrow', Arial, sans-serif;
+                        font-weight:bold;
+                    }
+                    h3 {
+                        text-align: left;
+                        color: #520975;
+                        font-size: 22px;
+                        margin: 0;
+                        font-family: 'Arial Narrow', Arial, sans-serif;
+                    }
+                    h4 {
+                        text-align: left;
+                        color: #000000;
+                        font-size: 16px;
+                        margin: 0;
+                        font-weight: bold;
+                        font-family: 'Arial Narrow', Arial, sans-serif;
+                    }
+                    p {
+                        text-indent: 0px;
+                        color: #666666;
+                        text-align: justify;
+                        margin: 0;
+                        font-size: 16px;
+                        font-family: 'Arial Narrow', Arial, sans-serif;
+                    }
+                    #height {
+                        height: 300px;
+                    }
+                </style>
+                <article>
+                    <right>
+                        
+                    </right>
+                </article>
+                <article>
+                    <left>
+                        <h2>Recruitment chair</h2>
+                       
+                    </left>
+                </article>
             </div>
         </div>
 
@@ -105,9 +196,10 @@
 
     <!-- Script to Activate the Carousel -->
     <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+
     </script>
 
 </body>
