@@ -80,17 +80,62 @@
                         text-align: center;
                         max-width: 100%;
                     }
+                    
                     .cards {
                         display: block;
                         margin: auto;
                         width: 100%;
                     }
+                    
+                    h2 {
+                        text-align: center;
+                        color: #520975;
+                        font-size: 30px;
+                        font-family: 'Arial Narrow', Arial, sans-serif;
+                        font-weight: bold;
+                        padding:0;
+                        margin:0;
+                    }
+                    
+                    h3 {
+                        text-align: center;
+                        color: #36454f;
+                        font-size: 26px;
+                        font-family: 'Arial Narrow', Arial, sans-serif;
+                        font-weight: bold;
+                        padding:0;
+                        margin:0;
+                    }
+                    
+                    h4 {
+                        text-align: center;
+                        color: #000000;
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-family: 'Arial Narrow', Arial, sans-serif;
+                        padding:0;
+                        margin:0;
+                    }
+                    
+                    p {
+                        text-align: center;
+                    }
                 </style>
-                <h3> <br /> <br /></h3>
+                
+                <article>
+                    <header>
+                        <h1>Recruitment Spring 2018</h1>
+                    </header>
+                    <h2>Recruitment chair</h2>
+                    <h3>Ethan Marshall</h3>
+                    <h3>(860) 672-5073</h3>
+                    <h3>Marshall.Eth@Husky.neu.edu</h3>
+                    <P>If you're interested in joining FIJI, please fill out this interest form, and we will be in contact soon. If you have any questions, please contact our recruitment chair, Ethan Marshall.</P>
+                </article>
+
                 <header>
-                    <h1>Recruitment</h1>
-                    <img src = "Images/RushCards.jpg" 
-                         class = "cards"/>
+                    <h1>Recruitment Fall 2017</h1>
+                    <img src="Images/RushCards.jpg" class="cards" />
                 </header>
                 <!-- This page will contain the 5 images of our cabinet 
 running down the right hand side of the page. In the left 
@@ -100,73 +145,10 @@ with a pseudo header or something. -->
                 <!-- This was the idea we had to try and align cabinet members
 on the left, with their accompanying text on the right. To do this we are using subclasses
 of "article" to split the screen in 1:2 ratio. -->
-                <style>
-                    article left {
-                        float: right;
-                        width: 50%;
-                        margin: 0;
-                        padding-left: 0px;
-                    }
-                    
-                    article right {
-                        float: right;
-                        width: 50%;
-                        border-left: 1px solid gray;
-                        padding: 2em;
-                    }
-                    
-                    h1 {
-                        text-align: center;
-                        color: #520975;
-                    }
-                    
-                    h2 {
-                        text-align: right;
-                        color: #520975;
-                        margin: 10px;
-                        font-size: 30px;
-                        font-family: 'Arial Narrow', Arial, sans-serif;
-                        font-weight:bold;
-                    }
-                    h3 {
-                        text-align: left;
-                        color: #520975;
-                        font-size: 22px;
-                        margin: 0;
-                        font-family: 'Arial Narrow', Arial, sans-serif;
-                    }
-                    h4 {
-                        text-align: left;
-                        color: #000000;
-                        font-size: 16px;
-                        margin: 0;
-                        font-weight: bold;
-                        font-family: 'Arial Narrow', Arial, sans-serif;
-                    }
-                    p {
-                        text-indent: 0px;
-                        color: #666666;
-                        text-align: justify;
-                        margin: 0;
-                        font-size: 16px;
-                        font-family: 'Arial Narrow', Arial, sans-serif;
-                    }
-                    #height {
-                        height: 300px;
-                    }
-                </style>
-                <article>
-                    <right>
-                        
-                    </right>
-                </article>
-                <article>
-                    <left>
-                        <h2>Recruitment chair</h2>
-                       
-                    </left>
-                </article>
             </div>
+            <h3> <br /> <br /></h3>
+            <header> <br /> <br /></header>
+            <header> <br /> <br /></header>
         </div>
 
         <hr>
@@ -199,7 +181,6 @@ of "article" to split the screen in 1:2 ratio. -->
         $('.carousel').carousel({
             interval: 5000 //changes the speed
         })
-
     </script>
 
 </body>
